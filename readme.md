@@ -1,6 +1,12 @@
 ## currency-rate [![Version](https://img.shields.io/npm/v/currency-rate.svg)](https://www.npmjs.com/package/currency-rate)
 > 爬取 [中国银行-各类货币兑美元电汇牌价](https://www.bochk.com/whk/rates/exchangeRatesUSD/exchangeRatesUSD-input.action?lang=cn)的美元汇率
 
+
+### install 
+
+```
+$ npm install --save currency-rate
+```
 ### Setup
 
 ```
