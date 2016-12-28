@@ -1,0 +1,24 @@
+{
+  "name": "currency-rate",
+  "version": "1.0.0",
+  "description": "中国银行公布的美元汇率",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "China",
+    "currency",
+    "US",
+    "USA",
+    "rate",
+    "bank"
+  ],
+  "author": "Jayin Ton",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.3",
+    "request": "^2.79.0"
+  }
+}
