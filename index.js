@@ -7,7 +7,7 @@ const getResult = function (cb) {
   request('https://www.bochk.com/whk/rates/exchangeRatesUSD/exchangeRatesUSD-input.action?lang=cn', function (error, response, body) {
     if (!error && response.statusCode == 200) {
       let $ = cheerio.load(body)
-      var trs = $('html body #form-div form div table.form_table.import-data.second-right tr td')
+      let trs = $('html body #form-div form div table.form_table.import-data.second-right tr td')
 
       let tpl = {
         'title': '',
@@ -18,8 +18,8 @@ const getResult = function (cb) {
       }
       let item = {}
       let result = []
-      trs.each(function (index, ele) {``
-        var cell = $(this).text().trim()
+      trs.each(function (index, ele) {
+        let cell = $(this).text().trim()
 
         if (index % 3 === 0) {
           let tmp = cell.split('兑')
